@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
 
         bOK.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v) {
+            public void onClick(View view) {
 
                 doKlik();
                 doProcess();
