@@ -87,6 +87,7 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
+
     private boolean isValid() {
         boolean valid = true;
         String Nama = etNama.getText().toString();
