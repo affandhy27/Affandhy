@@ -41,67 +41,9 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                doKlik();
-                doProcess();
-                doClick();
-                doPilih();
 
             }
         });
     }
 
-    private void doPilih() {
-        tvHasil4.setText("Pilihan anda" + spKonfirmasi.getSelectedItem().toString());
-    }
-
-    private void doKlik() {
-        String Hasil = "Umur anda:\n";
-        int startlen = Hasil.length();
-        if (cb0.isChecked()) Hasil += cb0.getText() + "\n";
-        if (cb20.isChecked()) Hasil += cb20.getText() + "\n";
-        if (cb21.isChecked()) Hasil += cb21.getText() + "\n";
-
-        if (Hasil.length() == startlen) Hasil += "Tidak ada di Pilihan";
-        tvHasil2.setText(Hasil);
-    }
-
-    private void doClick() {
-        String Hasil = null;
-
-        if (rbL.isChecked()) {
-            Hasil = rbL.getText().toString();
-        } else if (rbP.isChecked()) {
-            Hasil = rbP.getText().toString();
-        }
-        if (Hasil == null) {
-            tvHasil3.setText("Belum memilih Jenis Kelamin");
-        } else {
-            tvHasil3.setText("Status anda : " + Hasil);
-        }
-    }
-
-    private void doProcess() {
-        if (isValid()) {
-            String Nama = etNama.getText().toString();
-            tvHasil.setText("Nama anda" + Nama);
-        }
-    }
-
-
-    private boolean isValid() {
-        boolean valid = true;
-        String Nama = etNama.getText().toString();
-
-        if (Nama.isEmpty()) {
-            etNama.setError("Namanya Belum Diisi");
-        } else if (Nama.length() < 3) {
-            etNama.setError("Karakter minimal 3");
-            valid = false;
-        } else {
-            etNama.setError(null);
-        }
-
-        return valid;
-
-    }
 }
