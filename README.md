@@ -1,9 +1,11 @@
 # Affandhy
 
 Affandhy, 11 RPL 3 , 02 ,SMK TELKOM MLG
+Jika ingin tahu **hasilnya** bisa diklik berikut ini
+[Hasil 1](https://cloud.githubusercontent.com/assets/22174350/20062347/f8019990-a535-11e6-9bd2-26da68d3862e.PNG)
+[Hasil 2](https://cloud.githubusercontent.com/assets/22174350/20062348/f806145c-a535-11e6-8215-13ea2c271362.PNG)
+[Hasil 3](https://cloud.githubusercontent.com/assets/22174350/20062349/f80ba5a2-a535-11e6-902a-67d3362d3c36.PNG)
 
-
-
-![ss 1](https://cloud.githubusercontent.com/assets/22174350/18479938/06ac1cdc-7a01-11e6-9b29-e5428c964baf.jpg)
-![ss 2](https://cloud.githubusercontent.com/assets/22174350/18479939/06b328a6-7a01-11e6-95b7-6fe1e0b9e89b.jpg)
-![ss 3](https://cloud.githubusercontent.com/assets/22174350/18479940/06b7566a-7a01-11e6-95b8-98c665affc30.jpg)
+![s01](https://cloud.githubusercontent.com/assets/22174350/20062347/f8019990-a535-11e6-9bd2-26da68d3862e.PNG)
+![s02](https://cloud.githubusercontent.com/assets/22174350/20062348/f806145c-a535-11e6-8215-13ea2c271362.PNG)
+![s03](https://cloud.githubusercontent.com/assets/22174350/20062349/f80ba5a2-a535-11e6-902a-67d3362d3c36.PNG)
